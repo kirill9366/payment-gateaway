@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ЕИРЦ</title>
+    <meta name="author" content="kirill9366">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+
+    <link href="css/animations.css" rel="stylesheet"> 
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/break.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <img class="header__logo" src="images/logo.png" alt="#">
+        <p class="header__title">Оплата по лицевому счету</p>
+        <a href="#" class="header__back button">назад</a>
+      </div>
+    </header>
+    <section id="main">
+      <div class="wrapper">
+
+        <div class="form-blocks">
+          <div class="form-block">
+            <p class="form-block__text-input">Номер лицевого счета</p>
+            <input type="text" class="input" placeholder="Введите номер лицевого счета">
+            <a href="#" class="form-block__button button">Искать</a>
+          </div>
+
+          <div class="form-block">
+            <p class="form-block__text-input">Сумма к оплате</p>
+            <div class="input-block">
+              <input type="text" class="input" disabled>
+              <p class="input-block__text">₽</p>
+            </div>
+            <div class="form-block__pay-keeper">
+              <img src="images/paykeeper.png" alt="#">
+            </div>
+            <p class="form-block__text-input">E-mail для отправки чека</p>
+            <input type="text" class="input">
+            <div class="form-block__flex">
+              <img class="form-block__img" src="images/visa.png" alt="#">
+              <a href="#" class="form-block__button button button_color-inversion">Оплата</a>
+            </div>
+            
+          </div>
+        </div>
+        <!-- form-block -->
+
+        <div class="content">
+          <p class="content__subtitle">Как осуществить платеж картой?</p>
+          <p class="content__text">Введите в поле "Лицевой счет" номер оплачиваемого счета.
+            Нажмите на кнопку [Проверить номер ЛС].
+            Проверьте и, при необходимости, исправьте сумму к оплате и сумму пеней.
+            Если параметры платежа корректны, то отметьте флажок о подтверждении параметров платежа.
+            Нажмите на кнопку [Перейти к оплате].
+            На странице банка вам потребуется ввести данные Вашей банковской карты и смс-код подтверждения операции.
+          </p>
+          <p class="content__subtitle">Как отменить платеж?</p>
+          <p class="content__text">Для отмены проведенного платежа, необходимо обратиться в офис ОАО ЕИРЦ, где Вам будет предложено написать заявление о возврате денежных средств.
+            Оплата производится банковскими картами международных платежных систем Visa Int, MasterCard Worldwide и национальной платежной системой Мир.
+
+            После подтверждения платежа и нажатия на кнопку [Перейти к оплате], Вы будете перенаправлены на платежную страницу PayKeeper, где необходимо будет ввести данные Вашей карты для совершения платежа, после проведения операции Вы будете возвращены обратно на наш сайт.
+
+            Безопасность платежей обеспечивается с помощью Банка-эквайера, функционирующего на основе современных протоколов и технологий, разработанных международными платежными системами Visa International, MasterCard Worldwide и национальной платежной системой Мир (3D-Secure: Verified by VISA, MasterCard SecureCode, MirAccept).
+            Обработка полученных конфиденциальных данных Держателя карты производится в процессинговом центре Банка-эквайера по закрытым сетям передачи данных, сертифицированным международными платежными системами для доставки конфиденциальной финансовой информации.
+            Безопасность передаваемой информации обеспечивается с помощью современных протоколов обеспечения безопасности в Интернет.
+          </p>
+        </div>
+
+      </div>
+      <!-- wrapper -->
+    </section>
+  </body>
+</html>
