@@ -11,7 +11,6 @@
     <!-- Favicon -->
     <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
 
-    <link href="css/animations.css" rel="stylesheet"> 
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/break.css" rel="stylesheet">
   </head>
@@ -19,8 +18,10 @@
     <header>
       <div class="wrapper">
         <img class="header__logo" src="images/logo.png" alt="#">
-        <p class="header__title">Оплата по лицевому счету</p>
-        <a href="#" class="header__back button">назад</a>
+        <div class="header__flex-block">
+          <p class="header__title">Оплата по лицевому счету</p>
+          <a href="#" class="header__back button">назад</a>
+        </div>
       </div>
     </header>
     <section id="main">
@@ -44,6 +45,8 @@
             </div>
             <p class="form-block__text-input">E-mail для отправки чека</p>
             <input type="text" class="input">
+            <input type="checkbox" class="checkbox-input" placeholder="text" name="confirm_parameters">
+            <label for="confirm_parameters" class="checkbox-input__label">Подтверждаю параметры платежа</label>
             <div class="form-block__flex">
               <img class="form-block__img" src="images/visa.png" alt="#">
               <a href="#" class="form-block__button button button_color-inversion">Оплата</a>

@@ -53,6 +53,13 @@ header {
   height: 78px;
 }
 
+.header__flex-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 298px);
+}
+
 .header__title {
   margin-left: 65px;
 
@@ -84,6 +91,19 @@ header {
   font-weight: 400;
   font-style: normal;
   line-height: 19px;
+}
+
+/* checkbox-input */
+.checkbox-input {
+  margin-bottom: 15px;
+}
+
+.checkbox-input__label {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 /* input */
@@ -202,6 +222,10 @@ header {
     height: 30px;
   }
 
+  .header__flex-block {
+    width: calc(100% - 100px);
+  }
+
   .header__title {
     font-size: 16px;
     line-height: 19px;
@@ -217,6 +241,8 @@ header {
   .header__title {
     font-size: 10px;
     line-height: 12px;
+
+    margin-left: 10px;
   }
 
   .header__back {
